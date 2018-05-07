@@ -24,7 +24,7 @@ function send_notification {
         bar=$(seq -s "─" $(($volume / 5)) | sed 's/[0-9]//g')
         case $volume in
              0)
-                 icon="audio-volume-off-symbolic"
+                 icon="audio-volume-muted-symbolic-osd"
                  ;;
              [1-9]|[1-2][0-9]|30)
                  icon="audio-volume-low-symbolic-osd" 
