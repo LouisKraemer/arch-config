@@ -17,7 +17,7 @@ foreground = ${colors.foreground}
 padding = 5
 module-margin = 2
 
-modules-right = wifi pulseaudio battery
+modules-right = wifi battery
 modules-center = date
 modules-left = i3
 
