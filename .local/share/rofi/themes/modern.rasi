@@ -1,0 +1,40 @@
+* {
+	dark:			#455A64;
+	dark-transparent:	#455A64CC;
+	white:			#FFFFFF;
+	transparent:		#00000000;
+	selected:		#EF5350;
+	font:			"Anonymous Pro 16";
+	background-color:	@transparent;
+	text-color:	@white;
+}
+
+window {
+	padding:		35% 35%;
+	transparency:		"real";
+	background-color:	@dark-transparent;
+	fullscreen:		true;
+}
+
+prompt {
+	padding:		2em 1em;
+}
+
+entry {
+	padding:		2em 1em;
+}
+
+listview {
+	scrollbar:		false;
+	spacing:		2em;
+	lines:			3;
+	fixed-height:		true;
+}
+
+element {
+	padding:		0  3em  0  1em;
+}
+
+element selected {
+	text-color:		@selected;
+}
