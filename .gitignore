@@ -2,7 +2,6 @@
 
 !.gitignore
 
-!.bash_aliases
 !.bashrc
 
 !.config/i3/*
