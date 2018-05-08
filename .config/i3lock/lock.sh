@@ -7,6 +7,6 @@
 	--ringcolor=37474f00 --insidecolor=37474f00 --linecolor=00000000 \
 	--insidevercolor=37474f00 --insidewrongcolor=b71c1c00 \
 	--indpos="x+w/2:y+2*h/3" \
-	--ringvercolor=37474f40 --ringwrongcolor=b71c1c40 \
+	--ringvercolor=37474fbf --ringwrongcolor=b71c1cbf \
 	--keyhlcolor=ffffffff --separatorcolor=00000000 \
 	--wrongtext="" --veriftext="" --radius=70 --ring-width=6.0
