@@ -1,6 +1,7 @@
 set autoindent
 set smooth
 set constantshow
+set softwrap
 
 include /usr/share/nano/sh.nanorc
 include /usr/share/nano/nanorc.nanorc
