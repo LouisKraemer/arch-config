@@ -1,0 +1,8 @@
+set autoindent
+set smooth
+set constantshow
+
+include /usr/share/nano/sh.nanorc
+include /usr/share/nano/nanorc.nanorc
+include /usr/share/nano/json.nanorc
+include /usr/share/nano/python.nanorc

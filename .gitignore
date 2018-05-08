@@ -19,3 +19,5 @@
 !.config/rofi/*
 
 !.local/share/rofi/themes/*
+
+!.nanorc
