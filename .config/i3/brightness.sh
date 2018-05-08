@@ -11,7 +11,7 @@ function send_notification {
     roundBrightness=$(echo "($brightness/5)/1" | bc)
     bar=$(seq -s "─" $(($roundBrightness)) | sed 's/[0-9]//g')
     # Send the notification
-    dunstify -i display-brightness-symbolic -r 9999 -u low " $bar"
+    dunstify -i display-brightness-symbolic -r 9999 -t 1500 " $bar"
 }
 
 case $1 in

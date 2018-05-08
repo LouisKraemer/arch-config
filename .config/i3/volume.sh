@@ -38,7 +38,7 @@ function send_notification {
         esac
     fi
     # Send the notification
-    dunstify -i $icon -r 9999 -u low " $bar"
+    dunstify -i $icon -r 9999 -t 1000 " $bar"
 }
 
 case $1 in

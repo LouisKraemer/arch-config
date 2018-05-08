@@ -29,7 +29,7 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x2-30+50"
+    geometry = "300x5-30+50"
 
     # Show how many messages are currently hidden (because of geometry).
     indicate_hidden = yes
@@ -134,7 +134,7 @@
     # Show age of message if message is older than show_age_threshold
     # seconds.
     # Set to -1 to disable.
-    show_age_threshold = 60
+    show_age_threshold = -1
 
     # Split notifications into multiple lines if they don't fit into
     # geometry.
@@ -148,7 +148,7 @@
     ignore_newline = no
 
     # Merge multiple notifications with the same content
-    stack_duplicates = true
+    stack_duplicates = false
 
     # Hide the count of merged notifications with the same content
     hide_duplicate_count = false
@@ -247,14 +247,14 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#37474F"
     foreground = "#ffffff"
-    timeout = 1
+    timeout = 5
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
     background = "#37474F"
     foreground = "#ffffff"
-    timeout = 5
+    timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
