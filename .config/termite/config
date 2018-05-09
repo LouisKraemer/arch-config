@@ -3,7 +3,7 @@
 #audible_bell = false
 #clickable_url = true
 #dynamic_title = true
-font = Font Awesome 5 Free 12
+font = Material Design Icons 12
 font = Anonymous Pro 12
 #fullscreen = true
 #geometry = 640x480
