@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 /usr/bin/i3lock -e -i /home/louis/Pictures/background-lock.jpg --clock \
 	--timestr="%H:%M" --timecolor=ffffffff --timesize=60 \
