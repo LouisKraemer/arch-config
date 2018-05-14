@@ -182,8 +182,8 @@ bindsym XF86AudioMute exec --no-startup-id "/home/louis/.config/i3/volume.sh mut
 bindsym XF86MonBrightnessUp exec --no-startup-id "/home/louis/.config/i3/brightness.sh up"
 bindsym XF86MonBrightnessDown exec --no-startup-id "/home/louis/.config/i3/brightness.sh down"
 
-bindsym Mod4+l exec --no-startup-id "/home/louis/.config/i3lock/lock.sh"
-#bindsym Mod4+l exec --no-startup-id "xautolock -locknow"
+#bindsym Mod4+l exec --no-startup-id "/home/louis/.config/i3lock/lock.sh"
+bindsym Mod4+l exec --no-startup-id "xset s activate"
 
 #workspaces
 assign [class="Termite"] 1
@@ -204,3 +204,5 @@ gaps outer 0
 gaps inner 8
 
 #autolock
+exec --no-startup-id xset s 270 30
+exec --no-startup-id xss-lock -n "dunstify -t 1500 'Verouillage dans 30 secondes ...'" -- $HOME/.config/i3lock/lock.sh -n
