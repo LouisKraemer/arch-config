@@ -24,3 +24,5 @@
 !.zshrc
 
 !.local/share/icons/material/*
+
+!.local/share/fonts/Simple\ Status/*.ttf
