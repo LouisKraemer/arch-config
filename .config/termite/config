@@ -3,8 +3,8 @@
 #audible_bell = false
 #clickable_url = true
 #dynamic_title = true
-font = Material Design Icons 12
-font = Anonymous Pro 12
+font = SimpleStatus 12
+font = Source Code Pro 12
 #fullscreen = true
 #geometry = 640x480
 #icon_name = terminal
@@ -50,7 +50,7 @@ scrollback_lines = 10000
 #background = #3f3f3f
 
 # 20% background transparency (requires a compositor)
-background = rgba(63, 63, 63, 0.85)
+background = rgba(63, 63, 63, 0.75)
 # If unset, will reverse foreground and background
 highlight = #2f2f2f
 

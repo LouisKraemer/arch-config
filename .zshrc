@@ -61,6 +61,7 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(
   git
   archlinux
+  extract
 )
 
 
