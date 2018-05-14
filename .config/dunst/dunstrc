@@ -165,7 +165,7 @@
     max_icon_size = 32
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/deepin/devices/16:/usr/share/icons/deepin/status/48
+    #icon_path = /usr/share/icons/gnome/16x16/status/
 
     ### History ###
 
