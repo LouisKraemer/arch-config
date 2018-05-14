@@ -205,4 +205,4 @@ gaps inner 8
 
 #autolock
 exec --no-startup-id xset s 270 30
-exec --no-startup-id xss-lock -n "dunstify -t 1500 'Verouillage dans 30 secondes ...'" -- $HOME/.config/i3lock/lock.sh -n
+exec --no-startup-id xss-lock -n $HOME/.config/i3lock/notify-lock.sh -- $HOME/.config/i3lock/lock.sh -n
