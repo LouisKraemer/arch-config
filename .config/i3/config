@@ -205,4 +205,5 @@ gaps inner 8
 
 #autolock
 exec --no-startup-id xset s 270 30
-exec --no-startup-id xss-lock -n $HOME/.config/i3lock/notify-lock.sh -- $HOME/.config/i3lock/lock.sh -n
+exec --no-startup-id xss-lock -n $HOME/.config/i3/notify-lock.sh -- $HOME/.config/i3lock/lock.sh -n
+exec --no-startup-id xset s activate
