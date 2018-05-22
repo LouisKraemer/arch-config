@@ -64,7 +64,7 @@ label = %time%
 
 [module/wifi]
 type = internal/network
-interface = wlan0
+interface = wlp63s0
 
 interval = 3.0
 
