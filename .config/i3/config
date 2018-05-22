@@ -190,6 +190,8 @@ assign [class="Termite"] 1
 assign [class="Chromium"] 2
 assign [class="Code"] 3
 assign [class="GitKraken"] 4
+assign [class="Stremio"] 9
+assign [class="vlc"] 9
 for_window [class="Spotify"] move window to workspace $ws10
 
 #launch app
