@@ -24,3 +24,5 @@
 !.zshrc
 
 !.local/share/icons/material/*
+
+!.pkglist.txt
