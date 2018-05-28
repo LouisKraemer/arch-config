@@ -43,11 +43,11 @@ function send_notification() {
 
 case $1 in
 up)
-	pamixer -u -i 10
+	pamixer -u -i 5
 	send_notification
 	;;
 down)
-	pamixer -u -d 10
+	pamixer -u -d 5
 	send_notification
 	;;
 mute)
