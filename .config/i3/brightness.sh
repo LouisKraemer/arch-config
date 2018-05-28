@@ -7,7 +7,10 @@ function get_bright() {
 function send_notification() {
 	# Make the bar with the special character ─ (it's not dash -)
 	# https://en.wikipedia.org/wiki/Box-drawing_character
-	bar=$(seq -s "─" $(($newBrightness/5)) | sed 's/[0-9]//g')
+	# bar=$(seq -s "─" $(($newBrightness/5)) | sed 's/[0-9]//g')
+	bar1=$(seq -s "─" $(($newBrightness / 5 + 1)) | sed 's/[0-9]//g')
+	bar2=$(seq -s " " $(($newBrightness / 5 + 1)) 21 | sed 's/[0-9]//g')
+	bar=$bar1$bar2
 
 	# Send the notification
 	dunstify -I $ICON/brightness.png -r 9999 -t 1500 " $bar"

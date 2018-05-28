@@ -19,9 +19,13 @@ function send_notification() {
 	# https://en.wikipedia.org/wiki/Box-drawing_character
 	if is_mute; then
 		icon=$ICON/volume-mute.png
-		bar=""
+		bar=$(seq -s " " 21 | sed 's/[0-9]//g')
 	else
-		bar=$(seq -s "─" $(($volume / 5)) | sed 's/[0-9]//g')
+		bar1=$(seq -s "─" $(($volume / 5 + 1)) | sed 's/[0-9]//g')
+		bar2=$(seq -s " " $(($volume / 5 + 1)) 21 | sed 's/[0-9]//g')
+		end="end"
+		bar=$bar1$bar2
+		print ${#bar}
 		case $volume in
 		0)
 			icon=$ICON/volume-mute.png
@@ -38,7 +42,7 @@ function send_notification() {
 		esac
 	fi
 	# Send the notification
-	dunstify -i $icon -r 9999 -t 1000 " $bar"
+	dunstify -i $icon -r 9999 -t 1000 $bar
 }
 
 case $1 in
